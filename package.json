@@ -1,34 +1,38 @@
 {
-  "name": "eslint-plugin-abbyy",
-  "version": "1.1.0",
-  "description": "eslint plugin abbyy",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "files": [
-    "README.md",
-    "lib"
-  ],
-  "author": "Attila Kling",
-  "main": "lib/index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "^1.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.1",
-    "eslint-plugin-eslint-plugin": "^4.0.1",
-    "eslint-plugin-node": "^11.1.0",
-    "jspath": "^0.4.0",
-    "mocha": "^9.1.3"
-  },
-  "peerDependencies": {
-    "eslint": ">=6.0"
-  },
-  "license": "MIT"
+    "name": "eslint-plugin-abbyy",
+    "version": "1.1.0",
+    "description": "eslint plugin abbyy",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jim-y/eslint-plugin-abbyy.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
+    "files": [
+        "README.md",
+        "lib"
+    ],
+    "author": "Attila Kling",
+    "main": "lib/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "mocha tests --recursive"
+    },
+    "dependencies": {
+        "requireindex": "^1.2.0",
+        "jspath": "^0.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.1",
+        "eslint-plugin-eslint-plugin": "^4.0.1",
+        "eslint-plugin-node": "^11.1.0",
+        "mocha": "^9.1.3"
+    },
+    "peerDependencies": {
+        "eslint": ">=6.0"
+    },
+    "license": "MIT"
 }
