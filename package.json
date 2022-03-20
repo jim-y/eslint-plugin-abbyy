@@ -22,8 +22,8 @@
         "test": "mocha tests --recursive"
     },
     "dependencies": {
-        "requireindex": "^1.2.0",
-        "jspath": "^0.4.0"
+        "jspath": "^0.4.0",
+        "requireindex": "^1.2.0"
     },
     "devDependencies": {
         "eslint": "^8.0.1",
